@@ -1,7 +1,8 @@
 def my_each (arr)# put argument(s) here
   # code here
   if block_given?
-    while < arr.length 
+    i = 0
+    while i < arr.length 
     yield
     
 end
